@@ -1,0 +1,166 @@
+body {
+  background: #ffffff;
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* 
+ основний колір тексту #212121 
+ вторичний колір тексту #757575
+ білий #FFFFFF
+ акцент #2196F3
+ колір футера контактів #FFFFFF99 
+ фон герой #2F303A;
+ хедер #FFFFFF;
+ основний фон #E5E5E5
+ основний фон(наша команда)  #F5F4FA
+ футер #2F303A
+
+
+ font-family: 'Raleway', sans-serif;
+
+ address: rgba(255, 255, 255, 0.6);
+
+ */
+
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+  text-decoration: none;
+}
+
+.auth-nav .link {
+  color: #757575;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+.title-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hide {
+  display: none;
+}
+.prior {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.title-prior {
+  text-transform: uppercase;
+}
+.title-description {
+  font-weight: 400;
+  line-height: 1.71;
+  color: #757575;
+}
+.title-section {
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-size: 36px;
+}
+
+.team {
+  background: #f5f4fa;
+  font-size: 16px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+}
+
+.team-name {
+  font-weight: 500;
+}
+.position {
+  font-weight: 400;
+
+  color: #757575;
+}
+.footer {
+  background-color: #2f303a;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+}
+.web-header {
+  color: #000000;
+}
+.web-footer {
+  color: #ffffff;
+}
+.footer-link .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address {
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+}
+.link:hover {
+  color: #2196f3;
+}
+.link:focus {
+  color: #2196f3;
+}
+.btn {
+  color: #212121;
+  cursor: pointer;
+  background-color: #f5f4fa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.btn:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.example {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+}
+.example-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
