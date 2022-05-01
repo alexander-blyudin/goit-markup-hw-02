@@ -48,7 +48,9 @@ body {
 .auth-nav .link {
   color: #757575;
 }
-
+.site-nav .link.current {
+  color: #2196f3;
+}
 .hero {
   background-color: #2f303a;
 }
