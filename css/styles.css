@@ -1,20 +1,25 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
 body {
   background: #ffffff;
-  color: #212121;
+  color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
 }
 
 /* 
  основний колір тексту #212121 
  вторичний колір тексту #757575
- білий #FFFFFF
+ основний фон білий #FFFFFF
  акцент #2196F3
  колір футера контактів #FFFFFF99 
  фон герой #2F303A;
- хедер #FFFFFF;
- основний фон #E5E5E5
+ фон хедер #FFFFFF;
  основний фон(наша команда)  #F5F4FA
- футер #2F303A
+ фон футер  #2F303A
 
 
  font-family: 'Raleway', sans-serif;
@@ -29,7 +34,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
@@ -41,15 +46,15 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--primary-text-color) 121;
   text-decoration: none;
 }
 
 .auth-nav .link {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .site-nav .link.current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .hero {
   background-color: #2f303a;
@@ -65,7 +70,20 @@ body {
 
   color: #ffffff;
 }
-
+.btn-hero {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+.btn-hero:hover {
+  background: #188ce8;
+}
+.btn-hero:focus {
+  background: #188ce8;
+}
 .hide {
   display: none;
 }
@@ -81,7 +99,7 @@ body {
 .title-description {
   font-weight: 400;
   line-height: 1.71;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .title-section {
   font-weight: 700;
@@ -105,7 +123,7 @@ body {
 .position {
   font-weight: 400;
 
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .item-team {
   background: #ffffff;
@@ -136,26 +154,27 @@ body {
   color: #ffffff;
 }
 .link:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .btn {
-  color: #212121;
+  color: var(--primary-text-color);
   cursor: pointer;
   background-color: #f5f4fa;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  font-family: inherit;
 }
 .btn:hover {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 .btn:focus {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 .example {
   font-weight: 700;
@@ -171,5 +190,5 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--secondary-text-color);
 }
