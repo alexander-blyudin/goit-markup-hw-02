@@ -40,7 +40,7 @@ body {
 
 .link {
   font-family: 'Roboto';
-  font-style: normal;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -77,6 +77,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  font-family: inherit;
 }
 .btn-hero:hover {
   background: #188ce8;
@@ -88,16 +89,20 @@ body {
   display: none;
 }
 .prior {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
 .title-prior {
+  font-weight: 700;
+
   text-transform: uppercase;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 .title-description {
-  font-weight: 400;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
@@ -119,11 +124,18 @@ body {
 
 .team-name {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .position {
-  font-weight: 400;
-
   color: var(--secondary-text-color);
+  line-height: 1.19;
+
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .item-team {
   background: #ffffff;
@@ -166,6 +178,11 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+
+  letter-spacing: 0.03em;
 }
 .btn:hover {
   color: #ffffff;
@@ -184,8 +201,6 @@ body {
   letter-spacing: 0.06em;
 }
 .example-name {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.9;
 
   letter-spacing: 0.03em;
